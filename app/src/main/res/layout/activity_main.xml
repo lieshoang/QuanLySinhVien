@@ -1,0 +1,40 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+
+        />
+    <Button
+        android:id="@+id/btQllop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:text="QL Lớp"
+        android:textAllCaps="false"
+        android:onClick="quanLyLop"
+        android:background="@color/colorPrimary"
+        />
+    <Button
+        android:id="@+id/btQlSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="QL Sinh Viên"
+        android:textAllCaps="false"
+        android:onClick="quanLySinhVien"
+        android:background="@color/colorPrimary"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edMaLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Lớp" />
+
+    <EditText
+        android:id="@+id/edTenLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Lớp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:id="@+id/btThem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#32090c"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:text="Thêm"
+            android:layout_weight="1"
+            android:onClick="themLop"
+
+
+            />
+        <Button
+            android:id="@+id/btHuy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:textColor="#32090c"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:onClick="huyThemLop"
+
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvLop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
