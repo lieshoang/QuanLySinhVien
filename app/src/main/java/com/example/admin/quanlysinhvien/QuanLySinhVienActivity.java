@@ -20,6 +20,7 @@ public class QuanLySinhVienActivity extends Activity {
     private Button btThemSV;
     private Button btHuySV;
     private ListView lvSinhVien;
+    private TextView hihi;
 
     private Spinner spinLop;
     private Cursor cursorLop;
